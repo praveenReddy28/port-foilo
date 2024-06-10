@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+  .logo-image {
+    width: 80px;
+    border-radius: 50px;
+  }
+  #mobile-nav {
+    display: flex;
+  }
+}
+/* section */
+@media screen and (max-width: 1200px) {
+  section {
+    padding-top: 5vh;
+    height: 96vh;
+    margin: auto;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+}
+/* profile */
+@media screen and (max-width: 1200px) {
+  #profile {
+    display: flex;
+    height: fit-content;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-title {
+    font-size: x-large;
+  }
+  #profile-social-icons {
+    display: flex;
+  }
+  .social-containers {
+    padding-top: 10%;
+    width: 43.5%;
+  }
+  .profile-info-2 {
+    font-size: large;
+  }
+  #profile-pic {
+    width: auto;
+
+    height: 50%;
+    justify-content: center;
+  }
+
+  #profile-pic,
+  .container-pic {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* about section */
+@media screen and (max-width: 1200px) {
+  .about-text {
+    margin: 0 5%;
+  }
+  #about-section {
+    padding-top: -2%;
+    height: fit-content;
+    margin-bottom: 6rem;
+    margin: 0 5%;
+  }
+  .about-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .icon-arrow {
+    cursor: pointer;
+    position: absolute;
+    right: -1rem;
+    bottom: -2rem;
+  }
+}
+
+/* Skills */
+@media screen and (max-width: 1200px) {
+  #Skills-container {
+    height: fit-content;
+    margin-bottom: 6rem;
+    margin: 0 5%;
+  }
+  .skills-containers {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Projects */
+@media screen and (max-width: 1200px) {
+  .project-container {
+    height: fit-content;
+    margin-bottom: 6rem;
+    margin: 0 5%;
+  }
+}
+
+/* Contact */
+@media screen and (max-width: 1200px) {
+  #contact-container {
+    height: fit-content;
+    margin-bottom: 6rem;
+    margin: 0 5%;
+  }
+  .contact-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/* footer */
+@media screen and (max-width: 1200px) {
+  #footer-container,
+  .footer-links,
+  .footer-content,
+  .list li a,
+  .social-icons li a {
+    flex-grow: 1;
+    display: inline;
+    flex-basis: content;
+    flex-wrap: wrap;
+  }
+  #footer-container {
+    background-color: #64605d;
+  }
+  .footer-box {
+    margin-top: 25%;
+    background: #64605d;
+  }
+  .footer-links {
+    gap: 25px;
+    font-size: larger;
+  }
+  .footer-menu {
+    margin-bottom: 5%;
+  }
+}

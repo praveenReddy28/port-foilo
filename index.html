@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>protipolo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquires.css" />
+    <script src="functon.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img class="logo-image" src="images/logo.jpg" alt="logo pic" />
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Conatct</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="mobile-nav">
+        <img class="logo-image" src="images/logo.jpg" alt="logo pic" />
+        <div class="mobile-menu">
+          <div class="mobile-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="togglemenu()">About</a></li>
+            <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+            <li><a href="#contact" onclick="togglemenu()">Conatct</a></li>
+            <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="container-pic">
+          <img id="profile-pic" src="images/profilepic.jpg" alt="profile pic" />
+        </div>
+        <div class="profile-text">
+          <p class="profile-info-1">Hello,</p>
+          <h1 class="profile-title">Praveen Kumar Reddy, Konda</h1>
+          <p class="profile-info-2">Frontend developer & Backend developer</p>
+          <div class="btn-container">
+            <button
+              class="profile-btn-1"
+              onclick="window.open('./documents/Praveen_resume.pdf')"
+            >
+              Resume
+            </button>
+            <button
+              class="profile-btn-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact
+            </button>
+          </div>
+          <div  class="social-containers">
+            <ul id="profile-social-icons" class="social-icons">
+              <li>
+                <a href=""><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/praveen-kumar-reddy-konda-8744a6188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&original_referer=https%3A%2F%2Fgithub.com%2F"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/praveenReddy28"><i class="fab fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="about-section">
+        <p class="about-text">Get to know More</p>
+        <h1 class="about-title">About Me<h1>
+          <div class="about-container">
+          <img src="" alt="">
+          </div>
+          <div class="about-details">
+            <div class="about-box">
+              <div class="about-box-1">
+                <div id="icons"><span  class="material-symbols-outlined">
+                  editor_choice
+                  </span></div>
+                <h4>Experience</h3>
+                <p class="about-info">6 months intership <br> I build small projest on Frontend by self.<br>I was tarined on angular node.js.<br>Mongodb server.
+                </p>
+              </div>
+              <div class="about-box-1">
+                <span class="material-symbols-outlined">
+                  school
+                  </span>
+                <h3>Education</h3>
+                <p>B.tech <br>Btach (2023)<br>(Electronics communication and engineering).<br>CGPA (6.57)</p>
+              </div>
+            </div>
+            <div class="about-text">
+              <p>To obtain a creative and challenging position in an organization that gives me an opportunity for self 
+                improvement and leadership, while contributing to the symbolic growth of the organization with my 
+                technical, innovative and logical skills.I'm intrested on coding and in desifns and mostly I"m inovating new designs and developing those designs with by using coding and I'm a Frontend and backend developer mostly I'm developing Frontend side.  </p>
+            </div>
+          </div>
+          
+          <div class="icon-arrow" onclick="location.href='./#about'"><span class="material-symbols-outlined">
+            keyboard_double_arrow_down
+            </span></div>
+      </section>
+      <section id="Skills-container">
+        <p class="skills-text">Explore My Skills</p>
+        <h1 class="skills-title"><span class="material-symbols-outlined">
+          verified
+          </span>Skills & Knowledge</h1>
+        <div class="skills-details-container">
+          <div class="skills-containers">
+            <div class="skills-details-box">
+              <h3 class="skills-sub-title">Frontend Development</h3>
+              <div class="skills-article-container">
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Advanced</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>JAVA SCRIPT</h3>
+                      <p>Intermediate (75%)</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>TYPE SCRIPT</h3>
+                      <p>Intermediate (75%)</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>ANGUALR</h3>
+                      <p>Intermediate (75%)</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>UI Designs</h3>
+                      <p>Intermediate (80%)</p>
+                    </div>
+                </article>
+              </div>
+            </div>
+            <div class="skills-details-box">
+              <h3 class="skills-sub-title">Backend developer</h3>
+              <div class="skills-article-container">
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>Node.js</h3>
+                      <p>Intermediate (75%)</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>Express.js</h3>
+                      <p>Intermediate (80%)</p>
+                    </div>
+                </article>
+                <article>
+                  <span class="material-symbols-outlined">
+                    task_alt
+                    </span>
+                    <div>
+                      <h3>Mongodb</h3>
+                      <p>Intermediate (80%)</p>
+                    </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="icon-arrow" onclick="location.href='./#about'"><span class="material-symbols-outlined">
+          keyboard_double_arrow_down
+          </span></div>
+      </section>
+      <section class="project-container">
+        <p class="project-text">Explore My Projects</p>
+        <h1 class="project-title"><span class="material-symbols-outlined">
+          verified
+          </span>Projects</h1>
+          <div class="project-details-container">
+            <div class="project-containers">
+              <div class="project-details-box">
+                <h3 class="project-sub-title">Example projects from Frontend</h3>
+                <div class="project-social-icons">
+                  <ul class="social-icons">
+                    <li>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/praveen-kumar-reddy-konda-8744a6188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&original_referer=https%3A%2F%2Fgithub.com%2F"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/praveenReddy28"><i class="fab fa-github"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="project-article-container">
+                  <article>
+                    <span class="material-symbols-outlined">
+                      verified
+                      </span>
+                      <div>
+                        <h3>E-commerce web site</h3>
+                        <p>Angular</p>
+                      </div>
+                  </article>
+                  <article>
+                    <span class="material-symbols-outlined">
+                      verified
+                      </span>
+                      <div>
+                        <h3>Responsive page</h3>
+                        <p>Html,Css,Js</p>
+                      </div>
+                  </article>
+                  <article>
+                    <span class="material-symbols-outlined">
+                      verified
+                      </span>
+                      <div>
+                        <h3>Login page</h3>
+                        <p>Html,Css</p>
+                      </div>
+                  </article>
+                  <article>
+                    <span class="material-symbols-outlined">
+                      verified
+                      </span>
+                      <div>
+                        <h3>College site</h3>
+                        <p>Html,Css</p>
+                      </div>
+                  </article>
+                  <article>
+                    <span class="material-symbols-outlined">
+                      verified
+                      </span>
+                      <div>
+                        <h3 href="#">Personal Blog</h3>
+                        <p>Html,Css,Js</p>
+                      </div>
+                  </article>
+                 
+                </div>
+              </div>
+              <!-- <div class="icon-arrow" onclick="location.href='./#projects'"><span class="material-symbols-outlined">
+                keyboard_double_arrow_down
+                </span></div> -->
+      </section>
+      <section id="contact-container">
+        <p class="contact-title">Get in touch</p>
+        <h1 class="contact-heading">Contact On</h1>
+        <div class="contact-box">
+          <div class="contact-info-box">
+            <span class="material-symbols-outlined">
+              email
+              </span>
+              <p><a href="#">praveenkonda2002@gmail.com</a> </p>
+          </div>
+          <div class="contact-info-box">
+            <span class="material-symbols-outlined">
+              link
+              </span>
+              <p><a  href="https://www.linkedin.com/in/praveen-kumar-reddy-konda-8744a6188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> </p>
+          </div>
+        </div>
+
+      </section>
+      <footer id="footer-container">
+        <div class="footer-box">
+        <div class="footer-menu">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Conatct</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/praveen-kumar-reddy-konda-8744a6188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/praveenReddy28"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="copy-right">
+          <p>&copy; 2023 Personal blog Resume. All rights reserved</p>
+        </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
